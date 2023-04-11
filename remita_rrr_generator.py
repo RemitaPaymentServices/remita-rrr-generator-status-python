@@ -44,4 +44,7 @@ payload = {
 
 response = requests.post(demoEnvironment, headers=headers, json=payload)
 response = formatResponse(response)
+
+print('')
+
 print(response)
